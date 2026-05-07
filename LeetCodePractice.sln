@@ -1,0 +1,24 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA2BB03B-3191-4F0D-BC59-00C1EC812049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TasksArray", "TasksArray", "{EFF92822-5749-4F84-8684-49AC70063FAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{DC6C7EFC-3359-4390-863E-750A1A1E006F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC6C7EFC-3359-4390-863E-750A1A1E006F} = {DA2BB03B-3191-4F0D-BC59-00C1EC812049}
+		{EFF92822-5749-4F84-8684-49AC70063FAD} = {DA2BB03B-3191-4F0D-BC59-00C1EC812049}
+	EndGlobalSection
+EndGlobal
