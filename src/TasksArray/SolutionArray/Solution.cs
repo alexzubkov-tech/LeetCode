@@ -50,4 +50,26 @@ public class Solution
         }
         return string.Join("", result)  ;
     }
+
+    // public int RemoveDuplicates(int[] nums) => new HashSet<int>(nums).Count;
+    // public int RemoveDuplicates(int[] nums) => nums.Distinct().Count();
+
+     public int RemoveDuplicates(int[] nums)
+{
+    if (nums.Length == 0) return 0;
+    if (nums.Length == 1) return 1;
+    
+    int uniqueIndex = 0; 
+    
+    for (int i = 1; i < nums.Length; i++)
+    {
+        if (nums[i] != nums[uniqueIndex])
+        {
+            uniqueIndex++;
+            nums[uniqueIndex] = nums[i]; 
+        }
+    }
+    
+    return uniqueIndex + 1;
+}
 }
