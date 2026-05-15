@@ -1,0 +1,25 @@
+{
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": false,
+    "other": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggest.preview": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.snippetSuggestions": "none",
+  "editor.tabCompletion": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false
+}

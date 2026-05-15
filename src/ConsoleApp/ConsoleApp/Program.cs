@@ -2,9 +2,9 @@
 
 Solution solution = new Solution();
 
-int[] nums =[1,1,2];
+int[] nums =[0,1,2,2,3,0,4,2];
 
-Console.WriteLine(solution.RemoveDuplicates(nums));
+Console.WriteLine(solution.RemoveElement(nums, 2));
 
 
 
